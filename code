@@ -1,9 +1,25 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&lines=YXNU+%7C+Developer)](https://git.io/typing-svg)
 
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/220px-Red_star.svg.png" width="147"/>
 
-```csharp
-github.com/YXNU
-dc   $  @yxnu
-srv  $  discord.gg/larp
-web  $ yxnu.sh 
+COPY DOWN BELOW ↓
+MADE BY YXNU-TEMPLATES
+FREE OF USE WITH CRED
+
+
+const YXNU = {
+  name: "YXNU",
+  role: "Developer",
+
+  links: {
+    github: "github.com/YXNU",
+    discord: "@yxnu.sh",
+    website: "yxnu.sh",
+    server: "discord.gg/guns"
+  },
+
+  focus: "Clean systems, scalable apps, modern web development",
+
+  print() {
+    console.log(`${this.name} | ${this.role}`);
+    console.log(this.focus);
+  }
+};
